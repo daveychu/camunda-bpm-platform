@@ -71,6 +71,6 @@ public class JerseyServerBootstrap extends EmbeddedServerBootstrap {
 
   @Override
   public void stop() {
-    server.shutdownNow();
+    server.stop();
   }
 }
